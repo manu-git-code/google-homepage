@@ -1,0 +1,172 @@
+/* navbar starts here */
+
+/* 
+*/
+
+a, a:visited {
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    position: fixed;
+    right: 30px;
+    top: 20px;
+}
+
+.navbar_flex {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    text-decoration-color: rgba(0,0,0,0.87);
+    text-decoration-style: solid;
+    color: rgba(0,0,0,0.87);
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+
+#github_image {
+    height: 35px;
+    width: 35px;
+    opacity: 0.55;
+}
+
+#about_image {
+    opacity: 0.55;
+}
+
+#github_image:hover {
+    opacity: 0.85;
+}
+
+
+#about_image:hover {
+    opacity: 0.85;
+}
+/* navbar ends here. Central section starts here */
+
+#logo {
+    margin-top: 110px;
+    max-width: 100%;
+    height: auto;
+}
+
+#share {
+    margin-left: -40px;
+    max-width: 100%;
+    position: absolute;
+    margin-top: 250px;
+}
+
+#logo_share {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#search_bar_container {
+    height: 44px;
+    max-width: 450px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 15px auto 30px auto;
+
+}
+
+#lens {
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+#microphone {
+    float: right;
+    padding-top: 8px;
+    padding-right: 18px;
+}
+
+#text {
+    position: relative;
+    top: -8px;
+    width: 80%;
+    height: 30px;
+    border: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#below_logo {
+    text-align:center;
+}
+
+#language_switch {
+    margin-top: -20px;
+}
+
+#search_with_google, #feeling_lucky {
+    display: inline-block;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 10px 15px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    border: solid 1px #f8f9fa;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+
+#search_with_google:hover, #feeling_lucky:hover {
+    text-decoration: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+}
+
+#language_switch {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+/* Central section ends here. Footer starts here */
+
+.footer_container {
+    position: fixed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #f2f2f2;
+    color: rgba(0,0,0,.54);
+}
+
+.footer > div {
+    margin: 11px;
+}
+
+#ft_link_1 {
+    flex-basis: 100%;
+}
+
+#ft_link_6 {
+    margin-left: auto;
+}
+
+#ft_link_1, #ft_link_2, #ft_link_3, #ft_link_4, #ft_link_5, #ft_link_6, #ft_link_7, #ft_link_8 {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
